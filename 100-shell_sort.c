@@ -12,7 +12,7 @@ size_t get_interval(size_t size)
 {
 	size_t interval = 1;
 
-	while (interval < size)
+	while (interval < size / 3)
 	{
 		interval = interval * 3 + 1;
 	}
